@@ -31,9 +31,16 @@ function move() {
         element.innerHTML = StartTemp * 1  + '%';
       }
     }
-      if(element.innerHTML <= 20){
-        element.style.color(blue);
+      if(StartTemp <= 20){
+        element.style.backgroundColor = "blue";
     }
+
+      else if (StartTemp <= 21 && StartTemp >=40){
+        element.style.backgroundColor = "green";
+    }
+      else{
+        element.style.backgroundColor = "green";
+      }
   }
 }
 
