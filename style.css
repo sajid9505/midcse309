@@ -1,1 +1,28 @@
 /* Add your styles here */
+
+.inputbox{
+    position: relative;
+    width: 800px;
+    margin: auto;
+    min-height: 300px;
+    padding-top: 300px;
+    
+}
+
+.TempBar{
+    width: 800px;
+    position: relative;
+    left: 55em;
+    bottom: 10em;
+}
+
+#myProgress {
+    width: 50%;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #4CAF50;
+  }
