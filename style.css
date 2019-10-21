@@ -12,8 +12,8 @@
 .TempBar{
     width: 800px;
     position: relative;
-    left: 55em;
-    bottom: 10em;
+    left: 29em;
+    bottom: 4em;
 }
 
 #myProgress {
@@ -25,4 +25,8 @@
     width: 1%;
     height: 30px;
     background-color: #4CAF50;
+  }
+
+  #btn{
+      
   }
