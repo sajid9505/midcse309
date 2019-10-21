@@ -9,22 +9,22 @@
 
       <div class= "inputbox">
 
-        <h1>Pressure Cooker</h1>
-
-        <form action="text">
-          Start Temperature (Celcius) <input type="text"> <br>
-          End Temperature (Celcius) <input type="text"> <br> 
-          Interval milliseconds <input type="text"> <br>
-        </form>
+       
+        
 
         <div class= "TempBar">
 
             <div id="myProgress">
                 <div id="myBar"></div>
               </div>
-              <button id="btn" onclick="move()">Start</button> 
-  
-        </div>
+              <h1>Pressure Cooker</h1>
+
+              Start Temperature (Celcius) <input type="number" id="StartTemp"> <br>
+              End Temperature (Celcius) <input type="number" id="StopTemp"> <br> 
+              Interval milliseconds <input type="number" id="TimeInterval"> <br>
+              <button class="Btn" onclick="move()">Start</button>
+              <!-- <button id="btn" onclick="move()">Start</button>  --> 
+        </div> 
 
       </div>
 
