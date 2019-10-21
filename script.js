@@ -27,26 +27,30 @@ function move() {
         i = 0;
       } else {
         StartTemp++;
-        element.style.width = StartTemp + '%';
-        element.innerHTML = StartTemp * 1  + '%';
-
-        if(StartTemp <= 20){
+        
+        if(StartTemp > 0 && StartTemp <= 20){
           element.style.backgroundColor = "blue";
       }
-        else if (StartTemp <= 21 && StartTemp >=40){
+        if(StartTemp > 21 && StartTemp <= 40){
           element.style.backgroundColor = "green";
       }
-        else if (StartTemp <= 41 && StartTemp >=60){
+        if(StartTemp > 41 && StartTemp <= 60){
           element.style.backgroundColor = "yellow";
       }
-        else if (StartTemp <= 61 && StartTemp >=80){
+        if(StartTemp > 61 && StartTemp <= 80){
           element.style.backgroundColor = "orange";
       }
-        else if (StartTemp <= 81 && StartTemp >=100){
+        if(StartTemp > 81 && StartTemp <= 100){
           element.style.backgroundColor = "red";
       }
-      }
+        else{
+           element.style.backgroundColor = "white";
+        }
+       
+        element.style.width = StartTemp + '%';
+        element.innerHTML = StartTemp * 1  + '%';
     }
+  }
      
   }
 }
