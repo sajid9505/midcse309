@@ -44,7 +44,7 @@ function move() {
           element.style.backgroundColor = "red";
       }
         else{
-           element.style.backgroundColor = "white";
+           element.style.backgroundColor = "green";
         }
        
         element.style.width = StartTemp + '%';
